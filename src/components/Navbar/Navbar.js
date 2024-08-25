@@ -31,19 +31,19 @@ const Navbar = () => {
           <ul className='navlist flex'>
 
             <li className='navitem'>
-              <a href='' className='navlink'>HOME</a>
+              <a href='#home' className='navlink'>HOME</a>
             </li>
 
             <li className='navitem'>
-              <a href='' className='navlink'>PACKAGES</a>
+              <a href='#package' className='navlink'>PACKAGES</a>
             </li>
 
             <li className='navitem'>
-              <a href='' className='navlink'>ABOUT US</a>
+              <a href='#about' className='navlink'>ABOUT US</a>
             </li>
 
             <li className='navitem'>
-              <a href='' className='navlink'>CONTACT</a>
+              <a href='#form' className='navlink'>CONTACT</a>
             </li>
 
             <button className='btn'><a href=''>BOOK NOW</a></button>

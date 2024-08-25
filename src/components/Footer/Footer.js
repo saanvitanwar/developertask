@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa";
 import { TbArrowForward } from "react-icons/tb";
+import footer from "../../projectimg/footer.jpg"
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -60,15 +61,19 @@ const Footer = () => {
 
   return (
     <section className='footer'>
-      <div className='seccontent container'>
+      <div className='seccontent container' >
         <div className='contactdiv flex'>
-          <div className='text'>
+
+          {/* <div className='image'>
+            <img src={footer}></img>
+          </div> */}
+          <div className='text' id='form'>
             <h1>Travel with us Again</h1>
             <small>For Queries</small>
           </div>
 
           <div className='inputdiv flex'>
-            <form className="carddiv" id='form' onSubmit={handleSubmit}>
+            <form className="carddiv"  onSubmit={handleSubmit}>
               <div className='nameinput'>
                 <label>Name:</label>
                 <div className='input flex'>
@@ -129,7 +134,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='footercard flex'>
+        <div className='footercard flex' id='about'>
           <div className='footerinto flex'>
             <div className='logodiv'>
               <a href='#' className='logo flex'>

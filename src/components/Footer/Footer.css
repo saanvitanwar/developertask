@@ -167,6 +167,8 @@ form>.btn{
 }
 
 @media screen and (min-width:1024px){
+
+    
     .carddiv{
         border: 1px solid grey;
         padding: 2rem;
@@ -194,6 +196,8 @@ form>.btn{
         margin-top: 15px;
         /* margin-left: 35%; */
     }
+
+    
     
 }
 

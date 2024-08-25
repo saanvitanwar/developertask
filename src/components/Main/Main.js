@@ -66,7 +66,7 @@ const Data = [
 const Main = () => {
   return (
 
-    <section className='main container section'>
+    <section className='main container section' id='package'>
 
       <div className='sectitle'>
         <h3 className='title'>Most Frequently visited</h3>

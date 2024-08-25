@@ -47,7 +47,7 @@ li{
 
 .btn{
   padding: .6rem 1.5rem;
-  background: linear-gradient(to right, hsl(187,85%,43%),hsl(199,100%,33%)) ;
+  background: linear-gradient(to right, rgb(255, 109, 189),rgb(255, 168, 122)) ;
   border-radius: 3rem;
   border: none;
   outline: none;
