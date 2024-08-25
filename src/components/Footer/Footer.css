@@ -1,0 +1,207 @@
+.error{
+    color: red;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.carddiv{
+    border: 1px solid grey;
+    padding: 2rem;
+    border-radius: 3rem;
+    background-color: rgb(237, 237, 237);
+}
+
+.seccontent{
+    width: 100%;
+    height: max-content;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+    z-index: 2;
+}
+
+.contactdiv{
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text>small{
+    font-size: 13px;
+    text-decoration: underline;
+    justify-content: center;
+}
+
+.text>h1{
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+.inputdiv{
+    width:180%;
+    gap:2rem;
+    padding:1rem;
+    flex-direction: column;
+
+}
+
+
+
+.input>input,
+.input>textarea{
+    width: 100%;
+    padding: .5rem 0.6rem;
+    border-radius: 3rem;
+    border: 1px solid rgb(190, 187, 187);
+}
+
+
+label{
+    font-size: 1.2rem;
+}
+
+form>.btn{
+    margin-top: 9px;
+    margin-left: 50px;
+}
+
+.input{
+    height: 70px;
+    padding: 0rem 1rem;
+    border-radius: 3rem;
+
+}
+
+.input>input{
+    background-color: none;
+    border: none;
+    outline: none;
+    width: 200px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.footercard{
+
+    padding: 1rem 1rem 4rem;
+    gap: 2rem;
+    border-radius: 1rem;
+    background-color: rgba(218, 218, 218, 0.296);
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.footerintro{
+    /* flex-basis: 50%; */
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.logo>.icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.footersocial{
+    gap: 0.5rem;
+}
+.footersocial>.icon{
+    font-size: 20px;
+}
+.footersocial>.icon:hover{
+    color: hsl(199,100%,33%);
+}
+
+.footerlist{
+    font-size: 15px;
+    color: rgb(101, 101, 101);
+}
+
+.footerlist>.icon{
+    font-size: 15px;
+    color: rgb(174, 174, 174);
+}
+
+.footerlist:hover,
+.footerlist>.icon:hover{
+    color: hsl(199,100%,33%);
+}
+
+
+form>.btn{
+    width: 320px;
+    justify-content: center;
+    color: white;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.footerlinks{
+    width: 100%;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+}
+
+.grptitle{
+    display: block;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+@media screen and (min-width:1024px){
+    .carddiv{
+        border: 1px solid grey;
+        padding: 2rem;
+        border-radius: 3rem;
+        background-color: rgb(237, 237, 237);
+        width: 500px;
+    }
+
+    .input{
+        height: 70px;
+        padding: 0rem 1rem;
+        border-radius: 3rem;
+    }
+
+    .input>input{
+        background-color: none;
+        border: none;
+        outline: none;
+        width: 500px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    form>.btn{
+        margin-top: 15px;
+        /* margin-left: 35%; */
+    }
+    
+}
+
+
+@media screen and (max-width:1024px){
+
+    form>.btn{
+        margin-top: 15px;
+        margin-left: 2%;
+    }
+}

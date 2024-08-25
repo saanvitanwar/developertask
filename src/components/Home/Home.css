@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.home {
+    width: 100%;
+    height: 100vh; /* Make sure the section takes up the full viewport height */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden; /* Ensure nothing overflows the container */
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(47, 106, 127, 0.5); /* Uncomment this for a slight overlay */
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%); /* Center the video */
+    z-index: 0;
+    pointer-events: none; /* Prevent the video from interfering with clicks */
+}
+
+.homecontent {
+    width: 100%;
+    height: 100%; /* Ensure the content div takes the full height */
+    padding: 8rem 1.5rem 3rem;
+    display: flex;
+    row-gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    text-align: center;
+}
+
+.textdiv>.smalltext {
+    font-size: 13px;
+    position: relative;
+}
+
+.smalltext>.btn{
+    color: white;
+}
+
+.textdiv>.hometitle {
+    position: relative;
+    font-size: 1.8rem;
+}
+

@@ -1,0 +1,89 @@
+.main{
+    width: 100%;
+}
+
+.title{
+    position: relative;
+    width: max-content;
+    color: rgb(64, 63, 63);
+    margin: 1rem 0;
+    z-index: 2;
+}
+
+/* .title::after{
+    position: absolute;
+    content: "";
+    background-color: hsl(187,85%,43%);
+    height: 5px;
+    width: 60px;
+    right: 0;
+    bottom :5px;
+    z-index: -1;
+} */
+
+.seccontent{
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.singledestination{
+    height: 100%;
+    display: grid;
+    padding: 1rem;
+    row-gap: 10px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(141, 141, 141, 0.521);
+    overflow: hidden;
+}
+
+.singledestination:hover{
+    background-color: rgba(166, 163, 163, 0.38);
+    /* transition: 0.1s ease; */
+}
+
+.cardinfo{
+    padding: 0rem 1rem;
+}
+
+.desttitle{
+    font-size: 20px;
+}
+
+.desc{
+    border-top: 1px solid rgb(171, 167, 167);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media screen and (min-width:500px) {
+    .title{
+        font-size: 1.5rem;
+    }
+
+    .main>.seccontent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .singledestination{
+        height: auto;
+    }
+    
+}
+
+@media screen and (min-width:840px) {
+    .title{
+        font-size: 1.5rem;
+    }
+
+    .main>.seccontent{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .singledestination{
+        height: auto;
+    }
+    
+}
